@@ -1,0 +1,178 @@
+/*********************************************************TAG SECTION******************************************************************/
+body
+{
+    font-family: "Montserrat";
+}
+h1
+{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2
+{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3
+{
+    font-family: "Montserrat-Bold";
+}
+p
+{
+    color: #afafaf
+}
+/*********************************************************CLASS SECTION******************************************************************/
+.container-fluid
+{
+    padding-top: 3%;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* Navigation bar */
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 1.5rem;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-button
+{
+    margin: 5% 3% 5% 0%;
+}
+.image-of-dog
+{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+.feature-box
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.feature-icon
+{
+    margin-bottom: 20px;
+    color: #ef8172; 
+}
+/*Below three lines of code is performed to allow for a hover state.*/
+.feature-icon:hover
+{
+    color:#ff4c68;
+}
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 0px;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.pricing-column
+{
+    padding: 3% 5%;
+}
+.call-to-action
+{
+    color:#fff;
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+}
+.foot-icon
+{
+    margin: 8px;
+}
+/*********************************************************ID SECTION******************************************************************/
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+}
+#features
+{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing
+{
+    text-align: center;
+    padding: 100px;
+}
+#cta
+{
+    background-color: #ff4c68;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+#footer
+{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+/*********************************************************MEDIA QUERY SECTION**********************************************************/
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .image-of-dog
+    {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+}
